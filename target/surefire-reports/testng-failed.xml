@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.TC2_LoginFailWithInvalidCred">
+        <methods>
+          <include name="loginWithInvalidCred" invocation-numbers="0"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.TC2_LoginFailWithInvalidCred -->
+      <class name="tests.TC4_SearchingProductShoe">
+        <methods>
+          <include name="searchingTheProduct" invocation-numbers="1"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.TC4_SearchingProductShoe -->
+      <class name="tests.TC3_EditTheProfileInfo">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="editMyProfile" invocation-numbers="1"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.TC3_EditTheProfileInfo -->
+      <class name="tests.TC5_VerifyingProductDetailPage">
+        <methods>
+          <include name="verifyProductDetails" invocation-numbers="0 1"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- tests.TC5_VerifyingProductDetailPage -->
+      <class name="tests.TC1_LoginWithValidCred">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="withValidCredentials" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- tests.TC1_LoginWithValidCred -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

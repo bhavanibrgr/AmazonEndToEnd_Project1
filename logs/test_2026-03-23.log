@@ -1,0 +1,107 @@
+2026-03-23 14:02:54 INFO  tests.TC1_LoginWithValidCred - hover over is done
+2026-03-23 14:03:01 INFO  tests.TC1_LoginWithValidCred - username and password entered successfully
+2026-03-23 14:03:08 INFO  tests.TC2_LoginFailWithInvalidCred - hover over is done
+2026-03-23 14:03:13 INFO  tests.TC2_LoginFailWithInvalidCred - valid username and invalid password entered successfully
+2026-03-23 14:03:17 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 14:03:24 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 14:03:31 INFO  tests.TC3_EditTheProfileInfo - Clicked on view link successfully
+2026-03-23 14:03:32 INFO  tests.TC3_EditTheProfileInfo - Profile edited successfully
+2026-03-23 14:03:38 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 14:03:45 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 14:03:48 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 14:03:54 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 14:04:00 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 14:04:03 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 14:04:09 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 14:04:16 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 14:04:18 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:36:07 INFO  tests.TC1_LoginWithValidCred - hover over is done
+2026-03-23 15:36:14 INFO  tests.TC1_LoginWithValidCred - username and password entered successfully
+2026-03-23 15:36:23 INFO  tests.TC2_LoginFailWithInvalidCred - hover over is done
+2026-03-23 15:36:28 INFO  tests.TC2_LoginFailWithInvalidCred - valid username and invalid password entered successfully
+2026-03-23 15:36:33 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:36:40 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:36:48 INFO  tests.TC3_EditTheProfileInfo - Clicked on view link successfully
+2026-03-23 15:36:49 INFO  tests.TC3_EditTheProfileInfo - Profile edited successfully
+2026-03-23 15:36:56 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:37:03 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:37:06 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:37:12 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:37:19 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:37:22 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:37:29 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:41:35 INFO  tests.TC1_LoginWithValidCred - hover over is done
+2026-03-23 15:41:42 INFO  tests.TC1_LoginWithValidCred - username and password entered successfully
+2026-03-23 15:41:50 INFO  tests.TC2_LoginFailWithInvalidCred - hover over is done
+2026-03-23 15:41:55 INFO  tests.TC2_LoginFailWithInvalidCred - valid username and invalid password entered successfully
+2026-03-23 15:41:59 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:42:06 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:42:13 INFO  tests.TC3_EditTheProfileInfo - Clicked on view link successfully
+2026-03-23 15:42:14 INFO  tests.TC3_EditTheProfileInfo - Profile edited successfully
+2026-03-23 15:42:20 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:42:27 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:42:30 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:42:36 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:42:43 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:42:46 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:42:54 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:43:01 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:43:03 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:47:18 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:47:24 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:47:30 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:47:44 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:47:51 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:47:56 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:49:55 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:50:01 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:50:06 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:50:22 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:50:28 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:50:33 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:52:05 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:52:11 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:52:17 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:52:19 INFO  tests.TC3_EditTheProfileInfo - Control moved to search result page
+2026-03-23 15:53:10 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:53:17 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:53:20 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:53:26 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:56:12 INFO  tests.TC1_LoginWithValidCred - hover over is done
+2026-03-23 15:56:18 INFO  tests.TC1_LoginWithValidCred - username and password entered successfully
+2026-03-23 15:56:26 INFO  tests.TC2_LoginFailWithInvalidCred - hover over is done
+2026-03-23 15:56:31 INFO  tests.TC2_LoginFailWithInvalidCred - valid username and invalid password entered successfully
+2026-03-23 15:56:35 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:56:41 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:56:58 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:57:05 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:57:13 INFO  tests.TC3_EditTheProfileInfo - Clicked on view link successfully
+2026-03-23 15:57:14 INFO  tests.TC3_EditTheProfileInfo - Profile edited successfully
+2026-03-23 15:57:20 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:57:27 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:57:30 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:57:36 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:57:43 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:57:46 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 15:57:51 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 15:57:58 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 15:58:01 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 18:23:59 INFO  tests.TC1_LoginWithValidCred - hover over is done
+2026-03-23 18:24:08 INFO  tests.TC1_LoginWithValidCred - username and password entered successfully
+2026-03-23 18:24:18 INFO  tests.TC2_LoginFailWithInvalidCred - hover over is done
+2026-03-23 18:24:24 INFO  tests.TC2_LoginFailWithInvalidCred - valid username and invalid password entered successfully
+2026-03-23 18:24:31 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 18:24:41 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 18:25:06 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 18:25:16 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 18:25:28 INFO  tests.TC3_EditTheProfileInfo - Clicked on view link successfully
+2026-03-23 18:25:29 INFO  tests.TC3_EditTheProfileInfo - Profile edited successfully
+2026-03-23 18:25:39 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 18:25:48 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 18:25:56 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 18:26:05 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 18:26:14 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 18:26:21 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+2026-03-23 18:26:30 INFO  tests.TC3_EditTheProfileInfo - hover over is done
+2026-03-23 18:26:40 INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+2026-03-23 18:26:47 INFO  tests.TC3_EditTheProfileInfo - product searched successfully
