@@ -27,7 +27,7 @@
       </class> <!-- tests.TC3_EditTheProfileInfo -->
       <class name="tests.TC5_VerifyingProductDetailPage">
         <methods>
-          <include name="verifyProductDetails" invocation-numbers="0 1"/>
+          <include name="verifyProductDetails" invocation-numbers="1"/>
           <include name="launchBrowser"/>
           <include name="closeBrowser"/>
         </methods>

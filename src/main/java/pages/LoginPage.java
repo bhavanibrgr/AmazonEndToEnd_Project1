@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Reporter;
 
 public class LoginPage{
     WebDriver driver;
@@ -29,7 +28,6 @@ public class LoginPage{
 	public void enteringValidUsername(String username) {
 		wait.until(ExpectedConditions.visibilityOf(userName));
 		userName.sendKeys(username);
-		Reporter.log("Entering valid username");
 	}
 	
 	@FindBy(id="continue")
@@ -46,12 +44,10 @@ public class LoginPage{
 	public void enteringPassword(String password) {
 		wait.until(ExpectedConditions.visibilityOf(passwordfield));
 		passwordfield.sendKeys(password);
-		Reporter.log("Username and password entered successfully and login is done");
 	}
 	public void enteringInvalidPassword(String password) {
 		wait.until(ExpectedConditions.visibilityOf(passwordfield));
 		passwordfield.sendKeys(password);
-		Reporter.log("Entering Invalid password");
 	}
 	
 	@FindBy(xpath="//input[@type='submit']")
@@ -60,7 +56,6 @@ public class LoginPage{
 	public void signInButtonClick() {
 		wait.until(ExpectedConditions.elementToBeClickable(signInButton));
 		signInButton.click();
-		Reporter.log("Sigin clicked successfully");
 	}
 	 
 }

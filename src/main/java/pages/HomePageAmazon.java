@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Reporter;
+
 
 public class HomePageAmazon {
     WebDriver driver;
@@ -26,7 +26,6 @@ public class HomePageAmazon {
 		wait.until(ExpectedConditions.visibilityOf(accountAndList));
 		Actions action=new Actions(driver);
 		action.moveToElement(accountAndList).perform();
-		Reporter.log("Hover over on Account and List is successful");
 	}
 	
 	//signIn
@@ -36,7 +35,6 @@ public class HomePageAmazon {
 	public void signInClick() {
 		wait.until(ExpectedConditions.elementToBeClickable(signIn));
 		signIn.click();
-		Reporter.log("SigIn click on homepage is successful");
 	}
 	
 	//SearchProduct
@@ -46,7 +44,6 @@ public class HomePageAmazon {
 	public void searchingProduct() {
 		wait.until(ExpectedConditions.visibilityOf(searchingProduct));
 		searchingProduct.sendKeys("shoe"+Keys.ENTER);
-		Reporter.log("Searching product is successful");
 	}
 	
 	//Click on Manage profiles under account and list
@@ -56,7 +53,7 @@ public class HomePageAmazon {
 	public void manageProfilesClick() {
 		wait.until(ExpectedConditions.visibilityOf(manageProfilesClick));
 		manageProfilesClick.click();
-		Reporter.log("Manage profiles clicked successfully");
+	
 	}
 	
 	@FindBy(xpath="//div[text()='Bhavani G R']")
@@ -65,7 +62,7 @@ public class HomePageAmazon {
 	public void accoundHolderNameClick() {
 		wait.until(ExpectedConditions.elementToBeClickable(ClickOnAccountHolderName));
 		ClickOnAccountHolderName.click();
-		Reporter.log("Account holder name clicked successfully");
+
 	}
 	@FindBy(xpath="//span[@id='selectProfileModalId']//div[@role='button']")
 	private WebElement clickOnProfile;
@@ -73,7 +70,6 @@ public class HomePageAmazon {
 	public void clickingOnProfile() {
 		wait.until(ExpectedConditions.elementToBeClickable(clickOnProfile));
 		clickOnProfile.click();
-		Reporter.log("Profile clicked successfully");
 	}
 	@FindBy(xpath="//a[text()='View']")
 	private WebElement viewLinkClick;
@@ -81,6 +77,5 @@ public class HomePageAmazon {
 	public void viewLinkClick() {
 		wait.until(ExpectedConditions.visibilityOf(viewLinkClick));
 		viewLinkClick.click();
-		Reporter.log("Profile view link clicked successfully");
 	}
 }

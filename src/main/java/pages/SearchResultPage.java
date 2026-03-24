@@ -21,9 +21,9 @@ public class SearchResultPage {
 	@FindBy(xpath="//a[@class='a-link-normal s-no-outline']")
 	private List<WebElement> allProducts;
 	
-	public void click1stProduct_MovingControl(WebDriver driver) throws InterruptedException {
+	public void click1stProduct_MovingControl(WebDriver driver) {
 		//wait.until(ExpectedConditions.visibilityOfAllElements(allProducts));
-		Thread.sleep(2000);
+		
 		allProducts.get(0).click();
 		Set<String> browserIds=driver.getWindowHandles();
 		Iterator<String> ids=browserIds.iterator();
@@ -33,6 +33,13 @@ public class SearchResultPage {
 		driver.switchTo().window(childId);
 	}
 	
+	@FindBy(css="#add-to-cart-button")
+	private WebElement addToCartVerification;
+	
+	public boolean verifyAddToCart() {
+		return addToCartVerification.isDisplayed();
+	}
+
 	//initialize
 	public SearchResultPage (WebDriver driver) {
 		PageFactory.initElements(driver, this);

@@ -19,7 +19,7 @@ public class BaseClass extends ListenersLogic{
         options.addArguments("--headless=new"); // headless mode
         
 		if(browser.equals("chrome"))
-			driver=new ChromeDriver(options);
+			driver=new ChromeDriver();
 		if(browser.equals("edge"))
 			driver=new EdgeDriver();
 		if(browser.equals("firefox"))
