@@ -18,7 +18,7 @@ public class HomePageAmazon {
     public HomePageAmazon(WebDriver driver) {
     	PageFactory.initElements(driver, this);
     }
-    //hoverover
+    //hover over
 	@FindBy(xpath="//div[@id='nav-link-accountList']")
 	private WebElement accountAndList;
 	
@@ -55,7 +55,7 @@ public class HomePageAmazon {
 		manageProfilesClick.click();
 	
 	}
-	
+	//Click on account holder name
 	@FindBy(xpath="//div[text()='Bhavani G R']")
 	private WebElement ClickOnAccountHolderName;
 	
@@ -64,6 +64,7 @@ public class HomePageAmazon {
 		ClickOnAccountHolderName.click();
 
 	}
+	//click on profile
 	@FindBy(xpath="//span[@id='selectProfileModalId']//div[@role='button']")
 	private WebElement clickOnProfile;
 	
@@ -71,6 +72,7 @@ public class HomePageAmazon {
 		wait.until(ExpectedConditions.elementToBeClickable(clickOnProfile));
 		clickOnProfile.click();
 	}
+	//click on view button
 	@FindBy(xpath="//a[text()='View']")
 	private WebElement viewLinkClick;
 	

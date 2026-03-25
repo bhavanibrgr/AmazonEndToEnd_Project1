@@ -2,7 +2,6 @@ package tests;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.SkipException;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -11,7 +10,7 @@ import base.BaseClass;
 import pages.HomePageAmazon;
 import pages.LoginPage;
 import pages.ProfileEditPage;
-import utility.ExcelSheet;
+import utility.LoginDataProviderFromExcel;
 import utility.ListenersLogic;
 import utility.RetryLogic;
 
@@ -20,18 +19,15 @@ public class TC3_EditTheProfileInfo extends BaseClass{
 	
 	Logger log = LogManager.getLogger(TC3_EditTheProfileInfo.class);
 	
-	@Test( dataProvider = "loginData", dataProviderClass = ExcelSheet.class
+	@Test( dataProvider = "loginDataprovider", dataProviderClass = LoginDataProviderFromExcel.class
    		  , retryAnalyzer = RetryLogic.class)
-	public void editMyProfile(String username, String password, String comments) throws InterruptedException {
-		 
-		if(!comments.equals("valid-valid")) {
-    		 throw new SkipException("Skipping non-valid data");
- 		}
+	public void editMyProfile(String username, String password, String type) throws InterruptedException{
+		
 		HomePageAmazon home=new HomePageAmazon(driver);
 		home.hoverOverOnAccountAndList(driver);
 		log.info("hover over is done");
 		home.signInClick();
-		
+		 
 		LoginPage login=new LoginPage(driver);
 		login.enteringUsername(username);
 		login.continueClick();
@@ -43,8 +39,7 @@ public class TC3_EditTheProfileInfo extends BaseClass{
 		home.manageProfilesClick();
 		home.accoundHolderNameClick();
 		
-		Thread.sleep(500);
-		home.hoverOverOnAccountAndList(driver);
+		Thread.sleep(1000);
 		home.hoverOverOnAccountAndList(driver);
 		home.clickingOnProfile();
 		home.viewLinkClick();

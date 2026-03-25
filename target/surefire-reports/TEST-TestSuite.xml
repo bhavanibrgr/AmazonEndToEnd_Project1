@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="96.3" tests="10" errors="0" skipped="5" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="80.998" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\admin\Downloads\eclipse-java-2025-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire13371500828790688380\surefirebooter-20260324153854627_3.jar C:\Users\admin\AppData\Local\Temp\surefire13371500828790688380 2026-03-24T15-38-54_422-jvmRun1 surefire-20260324153854627_1tmp surefire_0-20260324153854627_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire17080136383409481696\surefirebooter-20260325140724053_3.jar C:\Users\admin\AppData\Local\Temp\surefire17080136383409481696 2026-03-25T14-07-23_864-jvmRun1 surefire-20260325140724053_1tmp surefire_0-20260325140724053_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\admin\myprojects-eclipse-workspace\Project1-AmazonEndToEnd\target\test-classes;C:\Users\admin\myprojects-eclipse-workspace\Project1-AmazonEndToEnd\target\classes;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.40.0\selenium-java-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.40.0\selenium-api-4.40.0.jar;C:\Users\admin\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.40.0\selenium-chrome-driver-4.40.0.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.40.0\selenium-chromium-driver-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.40.0\selenium-json-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.40.0\selenium-manager-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.40.0\selenium-devtools-v142-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.40.0\selenium-devtools-v143-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.40.0\selenium-devtools-v144-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.40.0\selenium-edge-driver-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.40.0\selenium-firefox-driver-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.40.0\selenium-http-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.40.0\selenium-ie-driver-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.40.0\selenium-remote-driver-4.40.0.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.58.0\opentelemetry-api-1.58.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.58.0\opentelemetry-context-1.58.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-common\1.58.0\opentelemetry-common-1.58.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.58.0\opentelemetry-exporter-logging-1.58.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.58.0\opentelemetry-sdk-common-1.58.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.58.0\opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.58.0\opentelemetry-sdk-extension-autoconfigure-1.58.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.58.0\opentelemetry-sdk-trace-1.58.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.58.0\opentelemetry-sdk-1.58.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.58.0\opentelemetry-sdk-metrics-1.58.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.58.0\opentelemetry-sdk-logs-1.58.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.18.4\byte-buddy-1.18.4.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.40.0\selenium-os-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.40.0\selenium-safari-driver-4.40.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.40.0\selenium-support-4.40.0.jar;C:\Users\admin\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\admin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire13371500828790688380\surefirebooter-20260324153854627_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire17080136383409481696\surefirebooter-20260325140724053_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+6-LTS"/>
@@ -60,81 +60,51 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="withValidCredentials[bhavanibrgr@gmail.com, Bhavani@123, valid-valid](1)" classname="tests.TC1_LoginWithValidCred" time="7.403">
-    <system-out><![CDATA[15:39:01 [main] INFO  tests.TC1_LoginWithValidCred - hover over is done
-15:39:08 [main] INFO  tests.TC1_LoginWithValidCred - username and password entered successfully
+  <testcase name="withValidCredentials[bhavanibrgr@gmail.com, Bhavani@123, valid-valid](1)" classname="tests.TC1_LoginWithValidCred" time="9.253">
+    <system-out><![CDATA[14:07:30 [main] INFO  tests.TC1_LoginWithValidCred - hover over is done
+14:07:37 [main] INFO  tests.TC1_LoginWithValidCred - username and password entered successfully
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Mar 24, 2026 3:38:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Mar 25, 2026 2:07:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="withValidCredentials[bhavanibrgr@gmail.com, bhavani@123, valid-invalid](2)" classname="tests.TC1_LoginWithValidCred" time="0.0">
-    <skipped message="Skipping non-valid data"/>
-    <system-err><![CDATA[Mar 24, 2026 3:39:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 146
-]]></system-err>
-  </testcase>
-  <testcase name="loginWithInvalidCred[bhavanibrgr@gmail.com, Bhavani@123, valid-valid](1)" classname="tests.TC2_LoginFailWithInvalidCred" time="0.0">
-    <skipped message="Skipping valid data"/>
-    <system-err><![CDATA[Mar 24, 2026 3:39:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 146
-]]></system-err>
-  </testcase>
-  <testcase name="loginWithInvalidCred[bhavanibrgr@gmail.com, bhavani@123, valid-invalid](2)" classname="tests.TC2_LoginFailWithInvalidCred" time="7.011">
-    <system-out><![CDATA[15:39:18 [main] INFO  tests.TC2_LoginFailWithInvalidCred - hover over is done
-15:39:23 [main] INFO  tests.TC2_LoginFailWithInvalidCred - valid username and invalid password entered successfully
+  <testcase name="loginWithInvalidCred[bhavanibrgr@gmail.com, bhavani@123, valid-invalid](1)" classname="tests.TC2_LoginFailWithInvalidCred" time="6.797">
+    <system-out><![CDATA[14:07:42 [main] INFO  tests.TC2_LoginFailWithInvalidCred - hover over is done
+14:07:47 [main] INFO  tests.TC2_LoginFailWithInvalidCred - valid username and invalid password entered successfully
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2026 3:39:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 25, 2026 2:07:39 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="editMyProfile[bhavanibrgr@gmail.com, Bhavani@123, valid-valid](1)" classname="tests.TC3_EditTheProfileInfo" time="15.422">
-    <system-out><![CDATA[15:39:27 [main] INFO  tests.TC3_EditTheProfileInfo - hover over is done
-15:39:34 [main] INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
-15:39:41 [main] INFO  tests.TC3_EditTheProfileInfo - Clicked on view link successfully
-15:39:42 [main] INFO  tests.TC3_EditTheProfileInfo - Profile edited successfully
+  <testcase name="editMyProfile[bhavanibrgr@gmail.com, Bhavani@123, valid-valid](1)" classname="tests.TC3_EditTheProfileInfo" time="18.129">
+    <system-out><![CDATA[14:07:51 [main] INFO  tests.TC3_EditTheProfileInfo - hover over is done
+14:07:58 [main] INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
+14:08:06 [main] INFO  tests.TC3_EditTheProfileInfo - Clicked on view link successfully
+14:08:07 [main] INFO  tests.TC3_EditTheProfileInfo - Profile edited successfully
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2026 3:39:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 25, 2026 2:07:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="editMyProfile[bhavanibrgr@gmail.com, bhavani@123, valid-invalid](2)" classname="tests.TC3_EditTheProfileInfo" time="0.0">
-    <skipped message="Skipping non-valid data"/>
-    <system-err><![CDATA[Mar 24, 2026 3:39:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 146
-]]></system-err>
-  </testcase>
-  <testcase name="searchingTheProduct[bhavanibrgr@gmail.com, Bhavani@123, valid-valid](1)" classname="tests.TC4_SearchingProductShoe" time="14.594">
-    <system-out><![CDATA[15:39:48 [main] INFO  tests.TC3_EditTheProfileInfo - hover over is done
-15:39:55 [main] INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
-15:40:00 [main] INFO  tests.TC3_EditTheProfileInfo - product searched successfully
+  <testcase name="searchingTheProduct[bhavanibrgr@gmail.com, Bhavani@123, valid-valid](1)" classname="tests.TC4_SearchingProductShoe" time="12.666">
+    <system-out><![CDATA[14:08:11 [main] INFO  tests.TC4_SearchingProductShoe - hover over is done
+14:08:18 [main] INFO  tests.TC4_SearchingProductShoe - username and password entered successfully
+14:08:23 [main] INFO  tests.TC4_SearchingProductShoe - product searched successfully
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2026 3:39:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 25, 2026 2:08:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>
-  <testcase name="searchingTheProduct[bhavanibrgr@gmail.com, bhavani@123, valid-invalid](2)" classname="tests.TC4_SearchingProductShoe" time="0.0">
-    <skipped message="Skipping non-valid data"/>
-    <system-err><![CDATA[Mar 24, 2026 3:40:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 146
-]]></system-err>
-  </testcase>
-  <testcase name="verifyProductDetails[bhavanibrgr@gmail.com, Bhavani@123, valid-valid](1)" classname="tests.TC5_VerifyingProductDetailPage" time="21.593">
-    <system-out><![CDATA[15:40:09 [main] INFO  tests.TC3_EditTheProfileInfo - hover over is done
-15:40:16 [main] INFO  tests.TC3_EditTheProfileInfo - username and password entered successfully
-15:40:22 [main] INFO  tests.TC3_EditTheProfileInfo - product searched successfully
-15:40:24 [main] INFO  tests.TC3_EditTheProfileInfo - Control moved to search result page
+  <testcase name="verifyProductDetails[bhavanibrgr@gmail.com, Bhavani@123, valid-valid](1)" classname="tests.TC5_VerifyingProductDetailPage" time="19.627">
+    <system-out><![CDATA[14:08:27 [main] INFO  tests.TC5_VerifyingProductDetailPage - hover over is done
+14:08:34 [main] INFO  tests.TC5_VerifyingProductDetailPage - username and password entered successfully
+14:08:40 [main] INFO  tests.TC5_VerifyingProductDetailPage - product searched successfully
+14:08:42 [main] INFO  tests.TC5_VerifyingProductDetailPage - Control moved to search result page
 ]]></system-out>
-    <system-err><![CDATA[Mar 24, 2026 3:40:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 146
-]]></system-err>
-  </testcase>
-  <testcase name="verifyProductDetails[bhavanibrgr@gmail.com, bhavani@123, valid-invalid](2)" classname="tests.TC5_VerifyingProductDetailPage" time="0.0">
-    <skipped message="Skipping non-valid data"/>
-    <system-err><![CDATA[Mar 24, 2026 3:40:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Mar 25, 2026 2:08:24 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 144; Please update to a Selenium version that supports CDP version 146
 ]]></system-err>
   </testcase>

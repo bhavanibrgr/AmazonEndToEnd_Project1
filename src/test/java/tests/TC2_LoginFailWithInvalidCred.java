@@ -2,8 +2,6 @@ package tests;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.testng.Reporter;
-import org.testng.SkipException;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -11,7 +9,7 @@ import org.testng.asserts.SoftAssert;
 import base.BaseClass;
 import pages.HomePageAmazon;
 import pages.LoginPage;
-import utility.ExcelSheet;
+import utility.LoginDataProviderFromExcel;
 import utility.ListenersLogic;
 import utility.RetryLogic;
 
@@ -19,13 +17,10 @@ import utility.RetryLogic;
 public class TC2_LoginFailWithInvalidCred extends BaseClass{
 	Logger log= LogManager.getLogger(TC2_LoginFailWithInvalidCred.class);
 	
-     @Test(dataProvider = "loginData", dataProviderClass = ExcelSheet.class,
+     @Test(dataProvider = "loginDataprovider", dataProviderClass = LoginDataProviderFromExcel.class,
     		 retryAnalyzer = RetryLogic.class)
-	public void loginWithInvalidCred(String username, String password, String comments) {
+	public void loginWithInvalidCred(String username, String password, String type) {
 		
-    	 if(!comments.equals("valid-invalid")) {
-    		 throw new SkipException("Skipping valid data");
- 		}
     	HomePageAmazon home=new HomePageAmazon(driver);
  		home.hoverOverOnAccountAndList(driver);
  		log.info("hover over is done");
