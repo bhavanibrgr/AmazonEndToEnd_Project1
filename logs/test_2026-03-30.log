@@ -1,0 +1,67 @@
+2026-03-30 18:22:35 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 18:22:43 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 18:22:49 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 18:22:51 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 18:22:58 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 22:24:55 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 22:25:04 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 22:25:11 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 22:25:14 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 22:25:24 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 22:25:30 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 22:25:40 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 22:25:48 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 22:25:51 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 22:26:01 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 22:27:28 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 22:27:37 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 22:27:45 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 22:27:48 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 22:27:58 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 22:28:03 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 22:47:45 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 22:47:54 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 22:48:01 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 22:48:04 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 22:48:14 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 22:50:30 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 22:50:39 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 22:50:46 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 22:50:50 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 22:51:00 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 22:58:04 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 22:58:13 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 22:58:21 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 22:58:24 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 22:58:34 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 22:58:39 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 22:58:48 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 22:58:56 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 22:58:59 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 22:59:09 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 23:02:39 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 23:02:48 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 23:02:55 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 23:02:59 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 23:03:08 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 23:08:50 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 23:08:59 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 23:09:06 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 23:09:08 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 23:09:18 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 23:09:23 INFO  tests.TC11_PaymentCheckout - Clicked on proceed to buy
+2026-03-30 23:28:37 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 23:28:46 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 23:28:54 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 23:28:57 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 23:29:07 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 23:29:11 INFO  tests.TC11_PaymentCheckout - Clicked on proceed to buy
+2026-03-30 23:29:18 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 23:29:24 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 23:29:31 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 23:31:49 INFO  tests.TC11_PaymentCheckout - hover over is done
+2026-03-30 23:31:58 INFO  tests.TC11_PaymentCheckout - username and password entered successfully
+2026-03-30 23:32:05 INFO  tests.TC11_PaymentCheckout - product searched successfully
+2026-03-30 23:32:08 INFO  tests.TC11_PaymentCheckout - Control moved to search result page
+2026-03-30 23:32:19 INFO  tests.TC11_PaymentCheckout - Product added to cart
+2026-03-30 23:32:23 INFO  tests.TC11_PaymentCheckout - Clicked on proceed to buy

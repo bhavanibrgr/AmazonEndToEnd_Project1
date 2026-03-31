@@ -15,8 +15,8 @@ public class BaseClass extends ListenersLogic{
 	@Parameters("browser")
 	@BeforeMethod
 	public void launchBrowser(String browser)  {
-		ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless=new"); // headless mode
+//		ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--headless=new"); // headless mode
         
 		if(browser.equals("chrome"))
 			driver=new ChromeDriver();

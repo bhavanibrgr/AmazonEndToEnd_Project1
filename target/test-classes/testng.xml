@@ -11,7 +11,16 @@
        <class name="tests.TC3_EditTheProfileInfo"/>
        <class name="tests.TC4_SearchingProductShoe"/>
        <class name="tests.TC5_VerifyingProductDetailPage"/>
-      
+       <class name="tests.TC6_SearchWithFilters"/>
+       <class name="tests.TC7_SortProductsByFilter"/>
+       <class name="tests.TC8_VerifyProductsAddToCart"/>
+       <class name="tests.TC9_VerifyQuantityInAddToCart"/>
+       <class name="tests.TC10_ReachTillCartWithoutLogin"/>
+       <class name="tests.TC11_VerifyPaymentCheckout_Address"/>
+       <class name="tests.TC12_VerifyPaymentCheckout_PaymentMethod"/>
+       <class name="tests.TC13_VerifyPaymentCheckout_OrderReview"/>
+       <class name="tests.TC14_UserAbleToSelectEachPayment"/>
+       <class name="tests.TC15_UserAbleToApplyCouponCode"/>
     </classes>
   </test> 
 </suite> 

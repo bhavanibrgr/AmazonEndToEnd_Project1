@@ -4,13 +4,13 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.TC3_EditTheProfileInfo">
+      <class name="tests.TC6_SearchWithFilters">
         <methods>
           <include name="launchBrowser"/>
-          <include name="editMyProfile" invocation-numbers="0"/>
           <include name="closeBrowser"/>
+          <include name="searchProductWithFilters" invocation-numbers="0"/>
         </methods>
-      </class> <!-- tests.TC3_EditTheProfileInfo -->
+      </class> <!-- tests.TC6_SearchWithFilters -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -14,6 +14,7 @@ import org.testng.ITestResult;
 
 public class ListenersLogic implements ITestListener{
 	  public static WebDriver driver;
+	  
 //	  common method to take screenshot
 	  static String pathOfScreenshot(String status) {
 

@@ -75,6 +75,42 @@ public class LoginDataProviderFromExcel {
 			else if (testName.equals("verifyProductDetails") && type.equalsIgnoreCase("valid-valid")) {
 	            filteredData.add(rowData);
 	        }
+		  //TC6
+			else if (testName.equals("searchProductWithFilters") && type.equalsIgnoreCase("valid-valid")) {
+	            filteredData.add(rowData);
+	        }
+		  //TC7
+			else if (testName.equals("applyingFilter") && type.equalsIgnoreCase("valid-valid")) {
+	            filteredData.add(rowData);
+	        }
+		  //TC8
+			else if (testName.equals("addingProductsToCart") && type.equalsIgnoreCase("valid-valid")) {
+	            filteredData.add(rowData);
+	        }
+		  //TC9
+			else if (testName.equals("cartQuantityVerification") && type.equalsIgnoreCase("valid-valid")) {
+	            filteredData.add(rowData);
+	        }
+		  //TC11
+			else if (testName.equals("verifyPaymentCheckout") && type.equalsIgnoreCase("valid-valid")) {
+	            filteredData.add(rowData);
+	        }
+		  //TC12
+			else if (testName.equals("verifyPaymentCheckout_PaymentMethod") && type.equalsIgnoreCase("valid-valid")) {
+	            filteredData.add(rowData);
+	        }
+		  //TC13
+			else if (testName.equals("verifyPaymentCheckout_OrderTotal") && type.equalsIgnoreCase("valid-valid")) {
+	            filteredData.add(rowData);
+	        }
+		  //TC14
+			else if (testName.equals("verify_EachPaymentMethodSelection") && type.equalsIgnoreCase("valid-valid")) {
+	            filteredData.add(rowData);
+	        }
+		  //TC15
+			else if (testName.equals("couponCode") && type.equalsIgnoreCase("valid-valid")) {
+	            filteredData.add(rowData);
+	        }
 		}
 
 		wb.close();

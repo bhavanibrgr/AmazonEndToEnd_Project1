@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[hover over is done]]>
+    </line>
     <line>
       <![CDATA[Running vali-valid data]]>
     </line>
+    <line>
+      <![CDATA[username and password entered successfully]]>
+    </line>
+    <line>
+      <![CDATA[product searched successfully]]>
+    </line>
+    <line>
+      <![CDATA[Filtered required brand name successfully]]>
+    </line>
   </reporter-output>
-  <suite started-at="2026-03-25T14:07:25 IST" name="Suite" finished-at="2026-03-25T14:08:45 IST" duration-ms="79877">
+  <suite started-at="2026-03-31T13:16:42 IST" name="Suite" finished-at="2026-03-31T13:17:10 IST" duration-ms="27862">
     <groups>
     </groups>
-    <test started-at="2026-03-25T14:07:25 IST" name="Test" finished-at="2026-03-25T14:08:45 IST" duration-ms="79877">
-      <class name="tests.TC4_SearchingProductShoe">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.TC4_SearchingProductShoe@37c7595]" started-at="2026-03-25T14:08:07 IST" name="launchBrowser" finished-at="2026-03-25T14:08:10 IST" duration-ms="3133" status="PASS">
+    <test started-at="2026-03-31T13:16:42 IST" name="Test" finished-at="2026-03-31T13:17:10 IST" duration-ms="27862">
+      <class name="tests.TC6_SearchWithFilters">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.TC6_SearchWithFilters@2a898881]" started-at="2026-03-31T13:16:43 IST" name="launchBrowser" finished-at="2026-03-31T13:16:46 IST" duration-ms="3705" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,121 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method signature="searchingTheProduct(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC4_SearchingProductShoe@37c7595]" started-at="2026-03-25T14:08:10 IST" name="searchingTheProduct" data-provider="loginDataprovider" finished-at="2026-03-25T14:08:23 IST" duration-ms="12665" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bhavanibrgr@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Bhavani@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid-valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchingTheProduct -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC4_SearchingProductShoe@37c7595]" started-at="2026-03-25T14:08:23 IST" name="closeBrowser" finished-at="2026-03-25T14:08:23 IST" duration-ms="259" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.TC4_SearchingProductShoe -->
-      <class name="tests.TC2_LoginFailWithInvalidCred">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.TC2_LoginFailWithInvalidCred@5cde6747]" started-at="2026-03-25T14:07:38 IST" name="launchBrowser" finished-at="2026-03-25T14:07:40 IST" duration-ms="1780" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="loginWithInvalidCred(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC2_LoginFailWithInvalidCred@5cde6747]" started-at="2026-03-25T14:07:40 IST" name="loginWithInvalidCred" data-provider="loginDataprovider" finished-at="2026-03-25T14:07:47 IST" duration-ms="6797" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bhavanibrgr@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[bhavani@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid-invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginWithInvalidCred -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC2_LoginFailWithInvalidCred@5cde6747]" started-at="2026-03-25T14:07:47 IST" name="closeBrowser" finished-at="2026-03-25T14:07:47 IST" duration-ms="227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.TC2_LoginFailWithInvalidCred -->
-      <class name="tests.TC5_VerifyingProductDetailPage">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.TC5_VerifyingProductDetailPage@3ed242a4]" started-at="2026-03-25T14:08:23 IST" name="launchBrowser" finished-at="2026-03-25T14:08:25 IST" duration-ms="1527" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="verifyProductDetails(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC5_VerifyingProductDetailPage@3ed242a4]" started-at="2026-03-25T14:08:25 IST" name="verifyProductDetails" data-provider="loginDataprovider" finished-at="2026-03-25T14:08:44 IST" duration-ms="19627" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bhavanibrgr@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Bhavani@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid-valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductDetails -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC5_VerifyingProductDetailPage@3ed242a4]" started-at="2026-03-25T14:08:45 IST" name="closeBrowser" finished-at="2026-03-25T14:08:45 IST" duration-ms="269" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.TC5_VerifyingProductDetailPage -->
-      <class name="tests.TC1_LoginWithValidCred">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.TC1_LoginWithValidCred@74eb909f]" started-at="2026-03-25T14:07:26 IST" name="launchBrowser" finished-at="2026-03-25T14:07:28 IST" duration-ms="2556" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="withValidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC1_LoginWithValidCred@74eb909f]" started-at="2026-03-25T14:07:28 IST" name="withValidCredentials" data-provider="loginDataprovider" finished-at="2026-03-25T14:07:37 IST" duration-ms="9252" status="PASS">
+        <test-method signature="searchProductWithFilters(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC6_SearchWithFilters@2a898881]" started-at="2026-03-31T13:16:46 IST" name="searchProductWithFilters" data-provider="loginDataprovider" finished-at="2026-03-31T13:17:09 IST" duration-ms="23075" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -155,53 +53,27 @@
           </params>
           <reporter-output>
             <line>
+              <![CDATA[hover over is done]]>
+            </line>
+            <line>
               <![CDATA[Running vali-valid data]]>
             </line>
+            <line>
+              <![CDATA[username and password entered successfully]]>
+            </line>
+            <line>
+              <![CDATA[product searched successfully]]>
+            </line>
+            <line>
+              <![CDATA[Filtered required brand name successfully]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- withValidCredentials -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC1_LoginWithValidCred@74eb909f]" started-at="2026-03-25T14:07:38 IST" name="closeBrowser" finished-at="2026-03-25T14:07:38 IST" duration-ms="222" status="PASS">
+        </test-method> <!-- searchProductWithFilters -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC6_SearchWithFilters@2a898881]" started-at="2026-03-31T13:17:10 IST" name="closeBrowser" finished-at="2026-03-31T13:17:10 IST" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.TC1_LoginWithValidCred -->
-      <class name="tests.TC3_EditTheProfileInfo">
-        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.TC3_EditTheProfileInfo@63a270c9]" started-at="2026-03-25T14:07:47 IST" name="launchBrowser" finished-at="2026-03-25T14:07:48 IST" duration-ms="1535" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="editMyProfile(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TC3_EditTheProfileInfo@63a270c9]" started-at="2026-03-25T14:07:48 IST" name="editMyProfile" data-provider="loginDataprovider" finished-at="2026-03-25T14:08:07 IST" duration-ms="18130" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[bhavanibrgr@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Bhavani@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[valid-valid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editMyProfile -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TC3_EditTheProfileInfo@63a270c9]" started-at="2026-03-25T14:08:07 IST" name="closeBrowser" finished-at="2026-03-25T14:08:07 IST" duration-ms="215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- tests.TC3_EditTheProfileInfo -->
+      </class> <!-- tests.TC6_SearchWithFilters -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

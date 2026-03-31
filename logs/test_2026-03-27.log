@@ -1,0 +1,40 @@
+2026-03-27 10:02:24 INFO  tests.TC8_VerifyProductsAddToCart - hover over is done
+2026-03-27 10:02:34 INFO  tests.TC8_VerifyProductsAddToCart - username and password entered successfully
+2026-03-27 10:02:41 INFO  tests.TC8_VerifyProductsAddToCart - product searched successfully
+2026-03-27 10:02:44 INFO  tests.TC8_VerifyProductsAddToCart - Control moved to search result page
+2026-03-27 10:02:55 INFO  tests.TC8_VerifyProductsAddToCart - Product added to cart
+2026-03-27 10:16:27 INFO  tests.TC9_VerifyQuantityInAddToCart - hover over is done
+2026-03-27 10:16:36 INFO  tests.TC9_VerifyQuantityInAddToCart - username and password entered successfully
+2026-03-27 10:16:44 INFO  tests.TC9_VerifyQuantityInAddToCart - product searched successfully
+2026-03-27 10:16:47 INFO  tests.TC9_VerifyQuantityInAddToCart - Control moved to search result page
+2026-03-27 10:16:56 INFO  tests.TC9_VerifyQuantityInAddToCart - Product added to cart
+2026-03-27 10:17:01 INFO  tests.TC9_VerifyQuantityInAddToCart - hover over is done
+2026-03-27 10:17:10 INFO  tests.TC9_VerifyQuantityInAddToCart - username and password entered successfully
+2026-03-27 10:17:18 INFO  tests.TC9_VerifyQuantityInAddToCart - product searched successfully
+2026-03-27 10:17:22 INFO  tests.TC9_VerifyQuantityInAddToCart - Control moved to search result page
+2026-03-27 10:17:32 INFO  tests.TC9_VerifyQuantityInAddToCart - Product added to cart
+2026-03-27 10:22:55 INFO  tests.TC9_VerifyQuantityInAddToCart - hover over is done
+2026-03-27 10:23:03 INFO  tests.TC9_VerifyQuantityInAddToCart - username and password entered successfully
+2026-03-27 10:23:11 INFO  tests.TC9_VerifyQuantityInAddToCart - product searched successfully
+2026-03-27 10:23:14 INFO  tests.TC9_VerifyQuantityInAddToCart - Control moved to search result page
+2026-03-27 10:23:23 INFO  tests.TC9_VerifyQuantityInAddToCart - Product added to cart
+2026-03-27 10:23:28 INFO  tests.TC9_VerifyQuantityInAddToCart - hover over is done
+2026-03-27 10:23:33 INFO  tests.TC9_VerifyQuantityInAddToCart - username and password entered successfully
+2026-03-27 10:23:39 INFO  tests.TC9_VerifyQuantityInAddToCart - product searched successfully
+2026-03-27 10:30:06 INFO  tests.TC9_VerifyQuantityInAddToCart - hover over is done
+2026-03-27 10:30:14 INFO  tests.TC9_VerifyQuantityInAddToCart - username and password entered successfully
+2026-03-27 10:30:22 INFO  tests.TC9_VerifyQuantityInAddToCart - product searched successfully
+2026-03-27 10:30:25 INFO  tests.TC9_VerifyQuantityInAddToCart - Control moved to search result page
+2026-03-27 10:30:33 INFO  tests.TC9_VerifyQuantityInAddToCart - Product added to cart
+2026-03-27 10:40:57 INFO  tests.TC10_ReachTillCartWithoutLogin - product searched successfully
+2026-03-27 10:40:59 INFO  tests.TC10_ReachTillCartWithoutLogin - Control moved to search result page
+2026-03-27 10:41:07 INFO  tests.TC10_ReachTillCartWithoutLogin - Product added to cart
+2026-03-27 10:46:45 INFO  tests.TC10_ReachTillCartWithoutLogin - product searched successfully
+2026-03-27 10:46:47 INFO  tests.TC10_ReachTillCartWithoutLogin - Control moved to search result page
+2026-03-27 10:46:55 INFO  tests.TC10_ReachTillCartWithoutLogin - Product added to cart
+2026-03-27 10:47:05 INFO  tests.TC10_ReachTillCartWithoutLogin - product searched successfully
+2026-03-27 10:47:07 INFO  tests.TC10_ReachTillCartWithoutLogin - Control moved to search result page
+2026-03-27 10:47:15 INFO  tests.TC10_ReachTillCartWithoutLogin - Product added to cart
+2026-03-27 10:48:43 INFO  tests.TC10_ReachTillCartWithoutLogin - product searched successfully
+2026-03-27 10:48:46 INFO  tests.TC10_ReachTillCartWithoutLogin - Control moved to search result page
+2026-03-27 10:48:53 INFO  tests.TC10_ReachTillCartWithoutLogin - Product added to cart
